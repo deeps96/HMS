@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<title>Light</title>
+<link rel="stylesheet" href="../../lib/tau/wearable/theme/default/tau.min.css">
+<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)"
+	href="../../lib/tau/wearable/theme/default/tau.circle.min.css">
+<!-- load theme file for your application -->
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<div class="ui-page ui-page-active" data-enable-page-scroll="false" id="light-page">
+		<div id="selector" class="ui-selector">
+			<div class="ui-item" data-title="On" data-value="POWER_ON" style="background-color: #ffebee;"></div>
+			<div class="ui-item" data-title="Off" data-value="POWER_OFF" style="background-color: #ffcdd2;"></div>
+			<div class="ui-item" data-title="Brighter" data-value="BRIGHTNESS_UP" style="background-color: #ef9a9a;"></div>
+			<div class="ui-item" data-title="Darker" data-value="BRIGHTNESS_DOWN" style="background-color: #e57373;"></div>
+			<div class="ui-item" data-title="Candle" data-value="CANDLE_MODE" style="background-color: #ef5350;"></div>
+			<div class="ui-item" data-title="Bulb" data-value="LIGHT_BULB_MODE" style="background-color: #f44336;"></div>
+			<div class="ui-item" data-title="Sun" data-value="SUN_MODE" style="background-color: #e53935;"></div>
+			<div class="ui-item" data-title="Ice" data-value="ICE_MODE" style="background-color: #d32f2f;"></div>
+			<div class="ui-item" data-title="Evening" data-value="EVENING_MODE" style="background-color: #c62828;"></div>
+			<div class="ui-item" data-title="Sleeping" data-value="SLEEP_MODE" style="background-color: #b71c1c;"></div>
+			<div class="ui-item" data-title="Reading" data-value="READING_MODE" style="background-color: #ff8a80;"></div>
+			<div class="ui-item" data-title="Meditation" data-value="MEDITATION_MODE" style="background-color: #ff5252;"></div>
+			<div class="ui-item" data-title="Morning" data-value="MORNING_MODE" style="background-color: #ff1744;"></div>
+			<div class="ui-item" data-title="Circle" data-value="CIRCLE_MODE" style="background-color: #d50000;"></div>
+			<div class="ui-item" data-title="Party" data-value="PARTY_MODE" style="background-color: #fce4ec;"></div>
+			<div class="ui-item" data-title="Vacation" data-value="VACATION_MODE" style="background-color: #f8bbd0;"></div>
+			<div class="ui-item" data-title="Forest" data-value="FOREST_MODE" style="background-color: #f48fb1;"></div>
+			<div class="ui-item" data-title="Ocean" data-value="OCEAN_MODE" style="background-color: #f06292;"></div>
+			<div class="ui-item" data-title="Fire" data-value="FIRE_MODE" style="background-color: #ec407a;"></div>
+			<div class="ui-item" data-title="Love" data-value="LOVE_MODE" style="background-color: #e91e63;"></div>
+			<div class="ui-item" data-title="Red" data-value="RED" style="background-color: #d81b60;"></div>
+			<div class="ui-item" data-title="Yellow" data-value="YELLOW" style="background-color: #c2185b;"></div>
+			<div class="ui-item" data-title="Green" data-value="GREEN" style="background-color: #ad1457;"></div>
+			<div class="ui-item" data-title="Blue" data-value="BLUE" style="background-color: #880e4f;"></div>
+			<div class="ui-item" data-title="Pastell" data-value="PASTELL" style="background-color: #ff80ab;"></div>
+			<div class="ui-item" data-title="Plain" data-value="PLAIN" style="background-color: #ff4081;"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="../../js/circle-helper.js"></script>
+	<script type="text/javascript" src="../../js/hms.js"></script>
+	<script src="../../app.js"></script>
+	<script src="../../lowBatteryCheck.js"></script>
+	<script type="text/javascript" src="selector.js"></script>
+</body>
+</html>

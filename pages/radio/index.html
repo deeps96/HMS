@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<title>Radio</title>
+<link rel="stylesheet" href="../../lib/tau/wearable/theme/default/tau.min.css">
+<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)"
+	href="../../lib/tau/wearable/theme/default/tau.circle.min.css">
+<!-- load theme file for your application -->
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<div class="ui-page ui-page-active" data-enable-page-scroll="false" id="radio-page">
+		<div id="selector" class="ui-selector">
+			<div class="ui-item" data-title="A On" data-value="A_ON" style="background-color: #ffebee;"></div>
+			<div class="ui-item" data-title="A Off" data-value="A_OFF" style="background-color: #ffcdd2;"></div>
+			<div class="ui-item" data-title="B On" data-value="B_ON" style="background-color: #ef9a9a;"></div>
+			<div class="ui-item" data-title="B Off" data-value="B_OFF" style="background-color: #e57373;"></div>
+			<div class="ui-item" data-title="C On" data-value="C_ON" style="background-color: #ef5350;"></div>
+			<div class="ui-item" data-title="C Off" data-value="C_OFF" style="background-color: #f44336;"></div>
+			<div class="ui-item" data-title="D On" data-value="D_ON" style="background-color: #e53935;"></div>
+			<div class="ui-item" data-title="D Off" data-value="D_OFF" style="background-color: #d32f2f;"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="../../js/circle-helper.js"></script>
+	<script type="text/javascript" src="../../js/hms.js"></script>
+	<script src="../../app.js"></script>
+	<script src="../../lowBatteryCheck.js"></script>
+	<script type="text/javascript" src="selector.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+	<title>AudioX</title>
+	<link rel="stylesheet" href="../../lib/tau/wearable/theme/default/tau.min.css">
+	<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)" href="../../lib/tau/wearable/theme/default/tau.circle.min.css">
+	<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<div id="circularSectionchangerPage" class="ui-page" data-enable-page-scroll="false">
+		<div id="pageIndicator" class="ui-page-indicator"></div>
+		
+		<div id="circularSectionchanger" class="ui-content">
+			<div>
+				<section style="text-align:center">
+					<h3 style="margin-bottom: 100px"> Audio Core </h3>
+					<a href="audiocoreparam.html" style="font-size: 2.5rem; color: #03a9f4">Choose Mode</a>
+				</section>
+				<section class="ui-section-active" style="text-align:center">
+					<h3> AudioX </h3>
+					<div style="margin-top: 75px; cursor: pointer">
+						<div style="width: 50%; float: left;" id="stopDiv">
+						   Stop
+						</div>
+						
+						<div style="width: 50%; float: right;" id="startDiv">
+						   Start
+						</div>
+					</div>
+				</section>
+				<section style="text-align:center">
+					<h3 style="margin-bottom: 100px"> Visualization </h3>
+					<a href="visualizationparam.html" style="font-size: 2.5rem; color: #03a9f4">Choose Mode</a>
+				</section>
+			</div>
+		</div>
+		<script src="circular.js"></script>
+	</div>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="../../js/circle-helper.js"></script>
+	<script type="text/javascript" src="../../js/hms.js"></script>
+	<script src="../../app.js"></script>
+	<script src="../../lowBatteryCheck.js"></script>
+</body>
+</html>

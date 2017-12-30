@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<title>PC - Volume</title>
+<link rel="stylesheet"
+	href="../../lib/tau/wearable/theme/default/tau.min.css">
+<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)"
+	href="../../lib/tau/wearable/theme/default/tau.circle.min.css">
+<!-- load theme file for your application -->
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<div class="ui-page ui-page-active" id="pcVolumePage"
+		data-enable-page-scroll="false">
+		<header class="ui-header">
+			<h2 class="ui-title">Volume</h2>
+		</header>
+		<div class="ui-content content-padding">
+			<div class="result" id="currentVolume"></div>
+			<progress class="ui-circle-progress" id="volumeSlider" max="100"
+				value="20"></progress>
+		</div>
+		<script type="text/javascript" src="pc-volume.js"></script>
+	</div>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript"
+		src="../../lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="../../js/circle-helper.js"></script>
+	<script type="text/javascript" src="../../js/hms.js"></script>
+	<script src="../../app.js"></script>
+	<script src="../../lowBatteryCheck.js"></script>
+</body>
+</html>

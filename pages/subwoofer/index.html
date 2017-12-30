@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,user-scalable=no">
+<title>Subwoofer</title>
+<link rel="stylesheet" href="../../lib/tau/wearable/theme/default/tau.min.css">
+<link rel="stylesheet" media="all and (-tizen-geometric-shape: circle)"
+	href="../../lib/tau/wearable/theme/default/tau.circle.min.css">
+<!-- load theme file for your application -->
+<link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<div class="ui-page ui-page-active" data-enable-page-scroll="false" id="subwoofer-page">
+		<div id="selector" class="ui-selector">
+			<div class="ui-item" data-title="Power" data-value="POWER_TOGGLE" style="background-color: #ffebee;"></div>
+			<div class="ui-item" data-title="Mute" data-value="MUTE" style="background-color: #ffcdd2;"></div>
+			<div class="ui-item" data-title="Quieter" data-value="VOLUME_DOWN" style="background-color: #ef9a9a;"></div>
+			<div class="ui-item" data-title="Louder" data-value="VOLUME_UP" style="background-color: #e57373;"></div>
+			<div class="ui-item" data-title="Balance L" data-value="BALANCE_LEFT" style="background-color: #ef5350;"></div>
+			<div class="ui-item" data-title="Balance R" data-value="BALANCE_RIGHT" style="background-color: #f44336;"></div>
+			<div class="ui-item" data-title="Treble -" data-value="TREBLE_DOWN" style="background-color: #e53935;"></div>
+			<div class="ui-item" data-title="Treble +" data-value="TREBLE_UP" style="background-color: #d32f2f;"></div>
+			<div class="ui-item" data-title="Bass -" data-value="BASS_DOWN" style="background-color: #c62828;"></div>
+			<div class="ui-item" data-title="Bass +" data-value="BASS_UP" style="background-color: #b71c1c;"></div>
+			<div class="ui-item" data-title="Subwoofer -" data-value="SUBWOOFER_DOWN" style="background-color: #ff8a80;"></div>
+			<div class="ui-item" data-title="Subwoofer +" data-value="SUBWOOFER_UP" style="background-color: #ff5252;"></div>
+			<div class="ui-item" data-title="CD" data-value="INPUT_CD" style="background-color: #ff1744;"></div>
+			<div class="ui-item" data-title="PC" data-value="INPUT_PC" style="background-color: #d50000;"></div>
+			<div class="ui-item" data-title="Digital" data-value="INPUT_DIGITAL" style="background-color: #fce4ec;"></div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../../js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../../lib/tau/wearable/js/tau.min.js"></script>
+	<script type="text/javascript" src="../../js/circle-helper.js"></script>
+	<script type="text/javascript" src="../../js/hms.js"></script>
+	<script src="../../app.js"></script>
+	<script src="../../lowBatteryCheck.js"></script>
+	<script type="text/javascript" src="selector.js"></script>
+</body>
+</html>
